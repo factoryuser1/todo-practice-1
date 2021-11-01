@@ -28,26 +28,3 @@ function TodoCreator({createTodoItem}) {
     )
 }
 export default TodoCreator
-// class TodoCreator extends React.Component{
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             userInput: "",
-//             id:"",
-//             isCompleted: false
-//         }
-//     }
-//
-//     render() {
-//
-//         return(
-//             <>
-//                 //Function from App component to update its items array
-//             </>
-//
-//
-//         )
-//     }
-//
-// }
-// export default TodoCreator;
