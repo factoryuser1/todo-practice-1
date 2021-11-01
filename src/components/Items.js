@@ -18,23 +18,3 @@ const Items = ({items, handleCompletedItemChecked, handleDeleteItem, editTodoIte
     )
 }
 export default Items
-
-
-// class Items extends React.Component{
-//     constructor(props) {
-//         super(props);
-//
-//     }
-//
-//     render() {
-//         return (
-//             <div>
-//                 {
-//
-//                 }
-//             </div>
-//         );
-//     }
-//
-// }
-// export default Items;

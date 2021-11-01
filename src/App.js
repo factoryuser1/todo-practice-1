@@ -75,57 +75,6 @@ function App(){
 
 export default App;
 
-// class App extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             items:[] //populated fro API
-//         }
-//
-//
-//     }
-//     componentDidMount = async () => {
-//         await this.getTodoList();
-//     }
-//
-//     getTodoList = async () => {
-//         try {
-//             const urlEmailsList = "http://localhost:3001/api/items";
-//             const response = await fetch(urlEmailsList);
-//             const responseJson = await response.json();
-//             console.log(responseJson)
-//
-//             this.setState({
-//                 items: responseJson
-//             })
-//         } catch (e) {
-//             console.log(e);
-//         }
-//     }
-//
-//     updateItems = () =>{
-//
-//     }
-// //Render will contain all logic of the app
-//     render() {
-//         return (
-//             <div className="App">
-//                 Welcome to Ammar's Todo List
-//
-//                 <TodoCreator
-//                     updateItems={this.updateItems()}
-//                 />
-//                 <Items items={this.state.items}
-//                 />
-//
-//
-//             </div>
-//         );
-//     }
-//
-// }
-//
-
 // const url = "http://localhost:3001/api";
 //
 // export const getAllItems = async () => {

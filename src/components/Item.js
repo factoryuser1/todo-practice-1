@@ -45,19 +45,3 @@ const Item = ({item, handleCompletedItemChecked, handleDeleteItem, editTodoItem}
     )
 }
 export default Item
-// class Item extends React.Component{
-//     constructor(props) {
-//         super(props);
-//     }
-//     render() {
-//         return(
-//             <div>
-//                 {props.items.map((item) =>
-//                 )}
-//             </div>
-//         )
-//     }
-//
-// }
-//
-// export default Item;
